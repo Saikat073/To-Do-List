@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(156, 222, 252);
+    width: 400px;
+    padding: 20px;
+    height: auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-size: 1.7em;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 0.5px solid white;
+    margin-bottom: 20px;
+}
+
+.addTask {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
+}
+
+button {
+    background-color: rgb(244, 242, 153);
+    color: rgb(11, 11, 11);
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 15px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.actions button {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-left: 5px;
+}
